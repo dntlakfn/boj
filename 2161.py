@@ -1,6 +1,3 @@
-from enum import Flag
-
-
 l = []
 bo = True
 d = int(input())
