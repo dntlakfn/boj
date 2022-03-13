@@ -6,9 +6,12 @@
 # ------------> 밥순서
 # 4, 2, 5, 3, 1
 
-students = int(input())
-l = list(map(int, input().split()))
-line = []
-for i in range(len(l)):
-    line.insert(l[i], i+1)
-print(" ".join(map(str, line[::-1])))
+l = []
+a = int(input())
+l2 = list(map(int, input().split()))
+f = 1
+for i in range(a):
+    l.insert(l2[i], f)
+    f += 1
+l.reverse()
+print(" ".join(list(map(str, l))))
