@@ -1,2 +1,2 @@
-t = input()
-print(format(int(t,8), 'b'))
+t = int(input(), 8)
+print(format(t, 'b'))
